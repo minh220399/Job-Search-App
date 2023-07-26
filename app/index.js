@@ -24,21 +24,19 @@ const Home = () =>
             }}
             />
             
-            <ScrollView>
+            <ScrollView showsVerticalScrollIndicator={false}>
                 <View style={{
                     flex:1,
                     padding: SIZES.medium
                 }}>
-                    <Welcome>
+                    <Welcome/>
 
-                    </Welcome>
-                    <Popularjobs>
+                    <Popularjobs/>
 
-                    </Popularjobs>
+                    
 
-                    <Nearbyjobs>
+                    <Nearbyjobs/>
 
-                    </Nearbyjobs>
                 </View>
             </ScrollView>
         </SafeAreaView>
