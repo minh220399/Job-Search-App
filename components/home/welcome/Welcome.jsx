@@ -17,7 +17,7 @@ const Welcome = ({searchTerm, setSearchTerm, handleClick}) => {
         </Text>
 
         <Text style={styles.welcomeMessage}>
-          Find a job
+          Find a perfect job
         </Text>
 
       </View>
